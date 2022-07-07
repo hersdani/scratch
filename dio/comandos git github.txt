@@ -1,0 +1,64 @@
+GIT
+
+Estados
+ Modificado (modified);
+ Preparado (staged/index)
+ Consolidado (comitted);
+
+
+git help
+
+git help add
+git help commit
+git help <qualquer_comando_git>
+
+
+Config usuário
+git config --global user.name "Nome do Usuario"
+
+Config email
+git config --global user.email meu@email.com
+
+
+Listar configurações
+git config --list
+`
+
+
+Repositório Local
+
+Criar novo repositório
+git init
+
+Verificar estado dos arquivos/diretórios
+git status
+
+Adicionar arquivo/diretório (staged area)
+
+Adicionar um arquivo em específico
+git add meu_arquivo.txt
+
+Adicionar um diretório em específico
+git add meu_diretorio
+
+Adicionar todos os arquivos/diretórios
+git add .	ou git add -A
+
+Comitar informando mensagem
+
+git commit meuarquivo.txt -m "minha mensagem de commit"
+
+
+Remover arquivo/diretório
+git rm meu_arquivo.txt
+git rm -r diretorio
+
+Exibir histórico
+git log
+
+
+
+git push origin main
+
+git clone endereço_https ou SSH
+
